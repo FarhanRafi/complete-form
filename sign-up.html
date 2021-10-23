@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Font Awesome Icon -->
+
+  <!-- Bootstrap JS files -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Sign Up</title>
+</head>
+
+<body>
+  <div class="container-fluid sign-in-bg">
+    <form class="col-xl-7 col-lg-8 col-md-8 col-sm-10 col-xs-12 mx-auto login-box">
+      <div class="box-sign-up">
+        <div class="login-form">
+          <div class="main-form">
+            <h1 class="display-4 login mb-4 text-center">
+              Register
+            </h1>
+            <div class="row form-group mb-0">
+              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-3">
+                <input type="text" class="input form-control" placeholder="First Name" required>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
+                <input type="text" class="input form-control" placeholder="Last Name" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <input id="user" type="text" class="input form-control" placeholder="Email" required></input>
+            </div>
+            <div class="form-group ">
+              <label class="check-txt mr-0">Birth date:</label>
+              <input id="b-date" type="date" class="input b-day" required></input>
+            </div>
+            <div class="form-group mb-2">
+              <fieldset>
+                <label class="check-txt">Gender:</label>
+
+                <input id="male" class="radio-inline_input" type="radio" name="gender" value="male" />
+                <label class="radio-inline_label" for="male">
+                  Male
+                </label>
+                <input id="female" class="radio-inline_input" type="radio" name="gender" value="female" />
+                <label class="radio-inline_label" for="female">
+                  Female
+                </label>
+                <input id="third-gender" class="radio-inline_input" type="radio" name="gender" value="third-gender" />
+                <label class="radio-inline_label" for="third-gender">
+                  Third gender
+                </label>
+              </fieldset>
+            </div>
+            <div class="form-group">
+              <input id="telephone" type="tel" class="input form-control" placeholder="Contact Number" required></input>
+            </div>
+            <div class="row form-group mb-1">
+              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-3">
+                <input type="text" class="input form-control" placeholder="Password" required>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <input type="text" class="input form-control mb-3" placeholder="Confirm password" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="submit" class="button btn-block sign-txt" value="Sign Up">
+            </div>
+            <div class="hr mt-4 mb-4"></div>
+            <div class="form-group">
+              <button type="button" class="display-4 txt-btn register-btn">
+                <a href="index.html" class="text-decoration-none">
+                  Already have an account?
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>
